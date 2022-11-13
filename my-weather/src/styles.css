@@ -1,0 +1,225 @@
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body,
+html {
+  height: 100%;
+  color: #5a6275;
+}
+header,
+footer {
+  background: #9ca1ac;
+  padding: 25px 0;
+  text-align: center;
+}
+.content {
+  background: #e9ebee;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: column nowrap;
+  min-height: 100%;
+}
+.mainContent {
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+.main {
+  padding: 20px;
+}
+h1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #272044;
+}
+form {
+  position: relative;
+}
+.main input[type="text"] {
+  display: block;
+  padding: 10px 15px;
+  margin: 0 75px 0 0;
+  border-radius: 5px;
+  border: 1px solid #9ca1ac;
+  color: #9ca1ac;
+  font-size: 14px;
+  width: 100%;
+  max-width: 235px;
+}
+.main input[type="text"]::placeholder {
+  color: #0069c2;
+  opacity: 0.7;
+}
+.main input[type="text"]:focus,
+.main input[type="text"]:active {
+  border: 1px solid #0069c2;
+  outline-style: none;
+}
+.main input[type="submit"] {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  width: 85px;
+  background: #0069c2;
+  color: #fff;
+  border: 1px solid #9ca1ac;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.main input[type="submit"]:hover {
+  background: #108bf7;
+
+  border: 1px solid #0069c2;
+}
+#setCurrentCityButton {
+  display: block;
+  float: right;
+  padding: 10px;
+  background: #2b940b;
+  color: #fff;
+
+  width: 65px;
+  border: 1px solid #2b8b50;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.8px;
+  margin: 12px 0 0 0;
+}
+#setCurrentCityButton:hover {
+  background: #09b620;
+
+  border: 1px solid #048804;
+}
+h2 {
+  padding: 17px 0 12px;
+  font-size: 26px;
+  color: #9ca1ac;
+}
+.main section {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+}
+h3 {
+  font-size: 22px;
+  margin: 0 0 10px;
+}
+.currentDay {
+  font-size: 14px;
+  color: #939aa9;
+}
+.currentDay strong {
+  font-size: 16px;
+  color: #5a6275;
+}
+.currentDay .temp {
+  font-size: 60px;
+  color: #5a6275;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  left: 75px;
+}
+.weatherInfo {
+  text-align: right;
+  font-size: 16px;
+  color: #939aa9;
+}
+.weatherInfo img {
+  width: 55px;
+  margin: 0 auto;
+  display: block;
+}
+.main section.addInfo {
+  display: block;
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.addInfo ul {
+  border-top: 2px solid #5a6275;
+  height: 120px;
+  overflow: hidden;
+}
+.addInfo ul li {
+  border-left: 2px solid #5a6275;
+  display: inline-block;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.addInfo ul li:first-child {
+  border-left: 0;
+}
+.addInfo ul li span {
+  display: block;
+  color: #5a6275;
+}
+.addInfo ul li img {
+  width: 30px;
+}
+.readMore {
+  float: right;
+  display: block;
+  color: #0069c2;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.readMore:hover {
+  text-decoration: underline;
+}
+nav li {
+  display: block;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: #939aa9;
+  font-size: 20px;
+  border-radius: 0 5px 5px 0;
+}
+nav li.active,
+nav li:hover {
+  border-left: 2px solid #5a6275;
+  color: #596aca;
+  font-weight: bold;
+}
+nav li:hover {
+  background: #c8ddef;
+}
+.units {
+  position: relative;
+  top: -40px;
+  left: -20px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.units a {
+  color: #007bff;
+  text-decoration: none;
+}

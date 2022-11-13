@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="content">
+      <header><h1>Weather</h1></header>
+      <div class="mainContent">
+        <div class="main">
+          <form id="foundCity">
+            <input id="city" type="text" placeholder="Search city" />
+            <input type="submit" value="Search" />
+          </form>
+          <a href="#" title="Current City" id="setCurrentCityButton">
+            Current
+          </a>
+          <h2>Current city:</h2>
+          <section>
+            <div>
+              <h3 id="currentCity"></h3>
+              <p class="currentDay">
+                <strong id="date"></strong> <br />
+                <span id="weath"></span>
+                <span class="temp"
+                  ><span id="degrees"></span>
+                  <!--<span class="units">
+                    <a href="#" id="celsius-link">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a>
+                  </span>-->
+                </span>
+              </p>
+            </div>
+            <div class="weatherInfo">
+              <!--<img
+                src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/549/original/831682.png?1666356389"
+                alt="icon"
+              />-->
+              <span id="iconWeather"></span>
+              <p>
+                Humidity: <span id="humidity"></span>%
+                <br />
+                Wind: <span id="windSpeed"></span> m/c
+              </p>
+            </div>
+          </section>
+          <section class="addInfo">
+            <ul>
+              <li>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/554/original/kisspng-rain-cloud-weather-adobe-illustrator-artwork-gif-5d463c0bc54303.426381331564883979808.png?1666358069"
+                  alt="icon"
+                  width="100"
+                />
+                <span class="temp">+10/6</span>
+                <span class="day">Sat </span>
+                <span class="date">22.10 </span>
+              </li>
+
+              <li>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/554/original/kisspng-rain-cloud-weather-adobe-illustrator-artwork-gif-5d463c0bc54303.426381331564883979808.png?1666358069"
+                  alt="icon"
+                  width="100"
+                />
+                <span class="temp">+11/7</span>
+                <span class="day"> Sun </span>
+                <span class="date">23.10 </span>
+              </li>
+
+              <li>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/554/original/kisspng-rain-cloud-weather-adobe-illustrator-artwork-gif-5d463c0bc54303.426381331564883979808.png?1666358069"
+                  alt="icon"
+                  width="100"
+                />
+                <span class="temp">+11/7</span>
+                <span class="day"> Mon</span>
+                <span class="date">24.10 </span>
+              </li>
+
+              <li>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/554/original/kisspng-rain-cloud-weather-adobe-illustrator-artwork-gif-5d463c0bc54303.426381331564883979808.png?1666358069"
+                  alt="icon"
+                  width="100"
+                />
+                <span class="temp">+12/8</span>
+                <span class="day"> Tue</span>
+                <span class="date">25.10 </span>
+              </li>
+
+              <li>
+                <img
+                  src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/049/554/original/kisspng-rain-cloud-weather-adobe-illustrator-artwork-gif-5d463c0bc54303.426381331564883979808.png?1666358069"
+                  alt="icon"
+                  width="100"
+                />
+                <span class="temp">+12/7</span>
+                <span class="day">Wed </span>
+                <span class="date">26.10 </span>
+              </li>
+            </ul>
+            <a href="#" title="Read more" class="readMore">
+              Read more <span>&#8594;</span></a
+            >
+          </section>
+        </div>
+        <nav>
+          <ul>
+            <li class="active">Current City</li>
+            <li>Kyiv</li>
+            <li>Dnipro</li>
+            <li>Odesa</li>
+            <li>Lviv</li>
+          </ul>
+        </nav>
+      </div>
+      <footer><p>©Coded by Elena Melnyk</p></footer>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
