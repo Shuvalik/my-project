@@ -192,6 +192,10 @@ ul {
   font-size: 18px;
   font-weight: bold;
 }
+small a {
+  color: #00c2b8;
+  font-size: 14px;
+}
 .readMore:hover {
   text-decoration: underline;
 }
