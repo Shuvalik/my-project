@@ -46,6 +46,7 @@ footer {
 }
 .main {
   padding: 20px;
+  min-width: 370px;
 }
 h1 {
   font-size: 24px;
@@ -198,6 +199,9 @@ small a {
 }
 .readMore:hover {
   text-decoration: underline;
+}
+nav {
+  min-width: 100px;
 }
 nav li {
   display: block;
