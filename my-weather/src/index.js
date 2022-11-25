@@ -37,7 +37,7 @@ function setFoundingCity(event) {
 
   axios
     .get(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
     )
     .then(GetGeoLocation);
 }
@@ -122,7 +122,7 @@ function setPopularCity(event) {
 
   axios
     .get(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&appid=${apiKey}`
     )
     .then(GetGeoLocation);
 }
